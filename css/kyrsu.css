@@ -1,0 +1,141 @@
+body {
+    background-color: #000;
+    color: #b50110;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  header {
+  padding-top: 20px;
+  text-align: left;
+  padding-left: 40px; /* або скільки потрібно */
+  }
+  
+  header h1 {
+    color: #ff0000;
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+  
+  main {
+    padding: 0 20px 60px;
+  }
+  
+  .course {
+    background-color: #1a1a1a;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ff4d4f33;
+  }
+  
+  .course-text h2 {
+    font-size: 28px;
+    color: #b50110;
+    margin-bottom: 20px;
+  }
+  
+  .course-info .label {
+    color: #b50110;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .progress-bar {
+    background-color: #333;
+    height: 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    width: 55%;
+    background-color: #fc0606;
+    height: 100%;
+  }
+  .progress1 {
+    width: 23%;
+    background-color: #fc0606;
+    height: 100%;
+  }
+  
+  .course-info p {
+    font-size: 18px;
+    
+    line-height: 1.5;
+  }
+  .btn:hover {
+    box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+    cursor: pointer;
+  }
+  
+  .btn-container {
+    text-align: center;
+    margin-top: 20px;
+      margin-bottom: 60px; /* додає відстань між повторюваними блоками */
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 20px 635px;
+    background: linear-gradient(10deg, #3f0000, #1a1a1a, #3f0000);
+    color: rgb(255, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 15px #ff0000;
+    line-height: 80px; /* вирівнює текст вертикально */
+    text-align: center; /* вирівнює текст по горизонталі */
+    white-space: nowrap;
+  }
+ 
+
+
+
+  .title {
+ 
+    line-height: 1;
+    display: flex;
+    font-family: 'Nosifer', cursive;
+    font-size: 4vw;
+    color: #f10808;
+    text-shadow: 10px 20px #3c0202;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+    margin-top: 7vh;    
+    margin-left: 28vw;  
+  }
+  
+  .title:hover {
+    color: #0c0202;
+    text-shadow:
+      0 0 5px red,
+      0 0 10px red,
+      0 0 15px red,
+      0 0 25px darkred;
+  }
+  a[href="index.html"] {
+    color: red;
+    text-decoration: none;
+  }
+  
+  
+  .sticky-footer {
+    width: 100%;
+    height: 4rem;
+    background-color: #353434;
+    color: rgb(156, 153, 153);
+    text-align: center;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

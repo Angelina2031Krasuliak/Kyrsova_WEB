@@ -1,0 +1,354 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #1F1F1F;
+    font-family: Arial, sans-serif;
+    height: 3000px; 
+}
+
+.headerContainer {
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+
+.macbook-pro {
+    position: relative;
+    width: 99vw;
+    height: 143.4vh; 
+}
+
+.forma0 {
+    position: absolute;
+    width: 49vw; 
+    height: 100vh;
+    left: 50vw;
+    top: 0;
+    background: #D50006;
+}
+
+.forma1 {
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 76% 100%, 0% 100%);
+    width: 69vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background: #121111;
+    z-index: 2;
+}
+
+.forma2 {
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 73% 100%, 0% 100%);
+    width: 65vw;
+    height: 100vh;
+    left: -1.6vw;
+    top: 0vh;
+    background: #1F1F1F;
+    z-index: 2;
+}
+
+.forma3 { 
+    position: absolute;
+    width: 1004px;  
+    height: 710vw; 
+    left: 477px;    
+    top: 51.2vw;    
+    background: #2E2E2E;
+    padding: 20px;  
+    overflow: auto; 
+    overflow: hidden;
+    z-index: 4;     
+}
+
+.sticky-footer {
+    position: absolute;
+    bottom: 0; 
+    width: 100%; 
+    height: 4rem;
+    background-color: #464545;  
+    color: rgb(174, 172, 172);
+    text-align: center;
+    padding: 0px;
+    font-size: 0.8rem;
+    z-index: 10; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
+}
+.cybersecurity-text {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 5; 
+    position: s; 
+    margin-left: 5px;
+    
+}
+
+.cybersecurity-text h1 {
+    font-size: 1.5rem; 
+    margin-bottom: 0.5rem;
+    color: #f10808;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.cybersecurity-text h2 {
+    font-size: 0.9rem; 
+    margin-bottom: 0.5rem;
+    color: #f10808;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+.cybersecurity-text p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    line-height: 2;
+    padding: 0px;
+    
+}
+
+.cybersecurity-text ul {
+    
+    list-style: none;
+    padding-left: 0;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.cybersecurity-text li {
+    font-size: 0,5rem; 
+    margin-bottom:20px;
+    text-align: left;
+    
+}
+.cybersecurity-text li strong {
+   padding: 2px;
+   
+}
+
+.cybersecurity-text1 li:before {
+    content: "✔️";
+    margin-right: 0 px;
+    padding: 2px;
+    margin-bottom: 2px;
+}
+
+.forma4 {
+    position: absolute;
+    top: 53vw; 
+    width: 28.5vw;
+    height: 690px;
+    background: #1F1F1F;
+    padding: 20px;;
+  }
+
+.cyber-header {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #f10808;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#cyber-header-op, #cyber-header-op1, #cyber-header-op2, #cyber-header-op3, #cyber-header-op4, #cyber-header-op5, #cyber-header-op6, #cyber-header-op7, #cyber-header-op8, #cyber-header-op9 {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    color: #f10808;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.forma5 {
+    position: absolute;
+    width: 99vw;
+    height: 8vh;
+    left: 0;
+    top: 99.8vh;
+    background: #121111;
+    z-index: 3;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 12rem; 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    align-items: center;
+}
+
+.menu li a {
+    color: rgb(242, 241, 241);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu li a:hover {
+    color: #D50006;
+  }
+  
+.menu li {
+    color: white;
+    cursor: pointer;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 0; 
+    margin: 0;  
+}
+
+.menu li i {
+    margin-right: 0rem; 
+}
+
+.menu li:hover {
+    color: #D50006;
+}
+
+.content-block {
+    display: none;
+    padding: 2rem;
+    background-color: #222;
+}
+
+.content-block.active {
+    display: block;
+}
+
+
+.samurai_photo {
+    position: absolute;
+    width: 39vw;
+    height: 75vh;
+    left: 60vw;
+    top: 25vh;
+    z-index: 1; 
+}
+
+.content-box {
+    position: absolute;
+    top: 15vh;
+    left: 4vw;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 50vw;
+    z-index: 3;
+}
+
+.title {
+    font-family: 'Nosifer', cursive;
+    font-size: 3.5vw;
+    color: #f10808;
+    text-shadow: 10px 20px #110101;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 2vw;
+    margin: 10px 0 20px;
+    color: #eb1212;
+    font-weight: 400;
+}
+
+.text h3 {
+    font-size: 1.5vw;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.text p, .text ul, .text .note {
+    font-size: 1.6vw;
+    margin-bottom: 10px;
+}
+
+.text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.text li {
+    margin-bottom: 5px;
+}
+
+
+
+@media (max-width: 768px) {
+    .macbook-pro,
+    .forma0,
+    .forma1,
+    .forma2,
+    .forma3,
+    .forma4,
+    .forma5,
+    .samurai_photo,
+    .content-box {
+      position: static !important;
+      width: 100% !important;
+      height: auto !important;
+      left: auto !important;
+      top: auto !important;
+      clip-path: none !important;
+      padding: 10px !important;
+    }
+  
+    .title {
+      font-size: 6vw;
+      text-align: center;
+    }
+  
+    .subtitle {
+      font-size: 4vw;
+      text-align: center;
+    }
+  
+    .text p, .text ul, .text li, .text h3 {
+      font-size: 4vw;
+    }
+  
+    .menu {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  
+    .menu li {
+      font-size: 1.2rem;
+    }
+  
+    #scroll-to-header,
+    #scroll-to-header1,
+    #scroll-to-header2,
+    #scroll-to-header3,
+    #scroll-to-header4,
+    #scroll-to-header5,
+    #scroll-to-header6,
+    #scroll-to-header7,
+    #scroll-to-header8,
+    #scroll-to-header9 {
+      font-size: 1rem;
+      padding-top: 10px;
+      justify-content: flex-start;
+    }
+  }
+  
