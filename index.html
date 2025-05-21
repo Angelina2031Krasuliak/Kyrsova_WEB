@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="icon" href="./images/tytl.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -37,6 +36,33 @@
         <div class="forma1"></div>
         <div class="forma2"></div>
             <img src="./images/samurai_photo.jpg" alt="" class="samurai_photo">
+          
+            <nav class="forma5">
+            <ul class="menu" id="mainMenu">
+              <li id="burgerToggle">
+                <img src="./images/icons8-меню-xbox-24.png" alt="">
+              </li>
+              <li data-target="news">
+                <i class="fas fa-newspaper"></i> Новини
+              </li>
+              <li data-target="courses">
+                <a href="./kyrsu.html">Курси</a>
+                <i class="fas fa-envelope1"></i> 
+              </li>
+              <li data-target="why">
+                <i class="fas fa-question-circle"></i> Чому ми
+              </li>
+              <li>
+                <a href="./contacts.html">Контакти</a>
+                  <i class="fas fa-envelope"></i> 
+                </a>
+              </li>
+              <li data-target="language">
+                <i class="fas fa-language"></i> Мова
+              </li>
+            </ul>
+          </nav>
+
         <div class="forma3">
             <div class="cybersecurity-text">
                 <h1 class="cyber-header" id="cyber-header">Що таке кібербезпека?</h1>
@@ -52,7 +78,9 @@
                         </ul>
                     </div>
                     <p>Це важливо не лише для компаній чи державних структур, а й для кожного користувача інтернету, оскільки навіть звичайний смартфон може бути об’єктом атак.</p>
-          
+                    
+                            
+
                     <main>
                         <article>
                           <header>
@@ -298,12 +326,11 @@
                         <p><strong>Кібербезпека</strong> — це не те, чим можна займатися лише раз на рік. Це щоденна рутина, яка допомагає захистити вас і вашу інформацію від потенційних загроз. Перевіряйте свої акаунти на наявність підозрілої активності, регулярно змінюйте паролі та будьте уважні до повідомлень, які отримуєте. Пам’ятайте, що один недбалий крок може призвести до серйозних наслідків.</p>
                         <p><strong>Поділіться знаннями з близькими !!!</strong></p>
                         <p>Чим більше людей знають про кібербезпеку, тим менше шансів, що вони стануть жертвами кіберзлочинів. Поділіться з друзями та родиною інформацією про те, як захищати свої персональні дані, розпізнавати фішинг та як реагувати на кібератаки. Ваше знання може стати їхньою безпекою.</p>
-                                         
+                                          
                     </div>
                         <div class="sticky-footer">
                             <p>© 2020-2025 CYBER BUSHIDO </p>
                         </div>
-                    
                 </div>
                   
 
@@ -313,32 +340,11 @@
         </div>
     
   
-        <nav class="forma5">
-            <ul class="menu" id="mainMenu">
-              <li data-target="news">
-                <i class="fas fa-newspaper"></i> Новини
-              </li>
-              <li data-target="courses">
-                <a href="./kyrsu.html">Курси</a>
-                <i class="fas fa-envelope1"></i> 
-              </li>
-              <li data-target="why">
-                <i class="fas fa-question-circle"></i> Чому ми
-              </li>
-              <li>
-                <a href="./contacts.html">Контакти</a>
-                  <i class="fas fa-envelope"></i> 
-                </a>
-              </li>
-              <li data-target="language">
-                <i class="fas fa-language"></i> Мова
-              </li>
-            </ul>
-        </nav>
+
           
           
-            <aside class="forma4">  
-                <nav>
+                <aside class="forma4">  
+                  <nav>
                     <button id="cyber-header-op">Що таке кібербезпека?</button>
                     <button id="cyber-header-op1">Чому кібербезпека актуальна у сучасному світі?</button>
                     <button id="cyber-header-op2">Віруси та шкідливі програми (Malware)</button>
@@ -349,8 +355,8 @@
                     <button id="cyber-header-op7">Види Кібербезпеки</button>
                     <button id="cyber-header-op8">Приклади реальних кіберзлочинів</button>
                     <button id="cyber-header-op9">Залишайтеся на крок попереду кіберзагроз</button>
-                </nav>
-            </aside>
+                  </nav>
+                </aside>
           
 
         
@@ -360,6 +366,7 @@
     
     
     <script src="./js/index.js"></script>
+    <script src="./js/menu-toggle.js"></script>
 
 </body>
 </html>
